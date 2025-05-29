@@ -44,7 +44,7 @@ Made with the finest ingredients, our ice creams are a perfect treat for every o
 Sweet Bliss was born out of a passion for creating unique and indulgent ice cream experiences.
 What started as a dream to bring people together over delicious, handcrafted flavors to gather everyone."
               ghLink="https://github.com/lali20?tab=repositories"
-              demoLink="https://lalitha.neocities.org/icecream/"
+              demoLink="https://lalitha.neocities.org/icecream/home"
             />
           </Col>
 
