@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import hotel from "../../Assets/Projects/hotel.png";
 import ice from "../../Assets/Projects/ice.png";
-import suicide from "../../Assets/Projects/suicide.png";
+
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
