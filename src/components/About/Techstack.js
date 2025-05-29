@@ -4,6 +4,9 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
+  DiHtml5,
+  DiCss3,
+  DiGithubBadge,
   DiNodejs,
   DiMongodb,
   DiPython,
@@ -26,18 +29,24 @@ function Techstack() {
         <CgCPlusPlus />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -45,11 +54,11 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGithubBadge />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -57,10 +66,10 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
-      </Col> */}
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>

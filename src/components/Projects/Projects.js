@@ -6,6 +6,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import hotel from "../../Assets/Projects/hotel.png";
+import ice from "../../Assets/Projects/ice.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -18,7 +19,7 @@ function Projects() {
           My Recent <strong className="purple">Work </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here is a project I've worked on recently.
+          Here's is a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -26,24 +27,28 @@ function Projects() {
               imgPath={hotel}
               isBlog={false}
               title="Velvet Horizon"
-              description="Advanced Hotel Booking Platform, Easily book the hotels in advance."
+              description="Advanced Hotel Booking Platform, Easily book the hotels in advance. Our Standard Room offers a comfortable and functional space for a restful stay. This room features a comfortable queen-sized bed, a desk with a chair for work or relaxation, and a private bathroom with all the essentials. Enjoy complimentary Wi-Fi and a flat-screen TV for entertainment. The room is designed with a modern, warm neutral tones and stylish furnishings."
               ghLink="https://github.com/lali20/frontend"
               demoLink="https://frontend-two-alpha-55.vercel.app/#/home"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ice}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Sweet Bliss Ice cream"
+              description="Welcome to Sweet Bliss Ice Cream!
+We are excited to bring handcrafted, delicious ice creams to your neighborhood.
+Made with the finest ingredients, our ice creams are a perfect treat for every occasion.
+Sweet Bliss was born out of a passion for creating unique and indulgent ice cream experiences.
+What started as a dream to bring people together over delicious, handcrafted flavors to gather everyone."
+              ghLink="https://github.com/lali20?tab=repositories"
+              demoLink="https://lalitha.neocities.org/icecream/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
